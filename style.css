@@ -1,0 +1,90 @@
+/* am i high or i am low look at me i am making the world most amazing site ! ! ! */
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+/* box 1 start */
+.box1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 32px 320px;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.box1 > * {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+.preview-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textpart {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+button {
+    background-color: #3882F6;
+    width: 150px;
+    height: auto;
+    font-size: 24px;
+    border-radius: 15%;
+    padding: 6px 8px;
+    margin: 4px 2px; 
+    border: none;
+    color: #F9FAF8;
+    cursor: pointer;
+}
+
+img {
+    width: 45%;
+    height: auto;
+    justify-self: center;
+    border-radius: 15%;
+    border: 3px dotted #3882F6;
+}
+
+a, .small-preview {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: #F9FAF8;
+    text-decoration:underline;
+}
+
+.logo {
+    font-size: 32px;
+    color: #F9FAF8;
+}
+
+.big-preview {
+    font-size: 44px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+/* box 2 end */
