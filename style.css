@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    overflow-x: hidden;
 }
 /* box 1 start */
 .box1 {
@@ -182,6 +183,7 @@ a:hover {
     justify-content: space-around;
     border-radius: 12px;
     flex-wrap: wrap;
+    margin-bottom: 32px;
 }
 
 .textbox4 {
@@ -208,4 +210,18 @@ a:hover {
     color: #F9FAF8;
     cursor: pointer;
     margin-left: 100px;
+}
+
+/* box 4 ends here */
+/* box5/footer starts here */
+
+.box5 {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.box5 > div {
+    color:#E5E7EB;
+    font-size: 20px;
 }
