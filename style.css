@@ -34,7 +34,7 @@ body {
 }
 .preview-container {
     display: flex;
-    justify-content: space-between;
+    gap: 180px;
     align-items: center;
 }
 
@@ -61,7 +61,6 @@ button {
 .img1 {
     width: 45%;
     height: auto;
-    justify-self: center;
     border-radius: 15%;
     border: 3px dotted #3882F6;
 }
@@ -89,3 +88,37 @@ a:hover {
 }
 /* box 1 end */
 /* box 2 start */
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px;
+}
+
+.title > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.panel {
+    display: flex;
+    gap: 54px;
+}
+
+.panelitem {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
