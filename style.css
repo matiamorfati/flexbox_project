@@ -52,7 +52,7 @@ body {
     gap: 20px;
 }
 
-button {
+.textpart > button {
     background-color: #3882F6;
     width: 150px;
     height: auto;
@@ -164,4 +164,48 @@ a:hover {
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
+}
+/* box 3 ends here */
+/* box 4 starts here */
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.box4wrapper {
+    display: flex;
+    background-color:#3882F6;
+    max-width: 1100px;
+    padding: 40px 80px;
+    justify-content: space-around;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.textbox4 {
+    max-width: 450px;
+}
+.herotext {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.textbox4 > div, .herotext {
+    color:#F9FAF8;
+}
+
+.box4wrapper > button {
+    background-color: #3882F6;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 6px 8px;
+    margin: 4px 2px; 
+    color: #F9FAF8;
+    cursor: pointer;
+    margin-left: 100px;
 }
