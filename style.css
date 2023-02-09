@@ -8,6 +8,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 /* box 1 start */
 .box1 {
@@ -113,6 +114,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 32px;
 }
 .img2 {
     width: 150px;
@@ -124,3 +126,30 @@ a:hover {
 /* box2 ends here */
 /* box3 starts here */
 
+.box3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 1rem;
+}
+
+.quote, .signature {
+    font-style: italic;
+    color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    width:900px;
+}
+
+.quote {
+    font-size: 36px;
+    margin-top: 48px;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: flex-end;
+}
