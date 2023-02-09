@@ -58,7 +58,7 @@ button {
     cursor: pointer;
 }
 
-img {
+.img1 {
     width: 45%;
     height: auto;
     justify-self: center;
@@ -87,4 +87,5 @@ a:hover {
     font-weight: 900;
     color: #F9FAF8;
 }
-/* box 2 end */
+/* box 1 end */
+/* box 2 start */
