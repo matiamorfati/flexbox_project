@@ -112,7 +112,6 @@ a:hover {
     width: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .img2 {
@@ -122,3 +121,6 @@ a:hover {
     border-radius: 12px;
     margin-bottom: 16px;
 }
+/* box2 ends here */
+/* box3 starts here */
+
